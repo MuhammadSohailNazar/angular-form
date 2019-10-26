@@ -9,5 +9,5 @@ import { User } from './user';
 export class AppComponent {
   title = 'angular-form';
   public topics = ["Angular", "React", "Vue"];
-  userModel = new User("Sohail", "msn@gmail.com", 323434234, "", "morning", true);
+  userModel = new User("", "msn@gmail.com", 323434234, "", "morning", true);
 }
